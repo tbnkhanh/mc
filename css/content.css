@@ -1,7 +1,7 @@
 body
 {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Georgia', serif;
 }
 h1
 {
@@ -66,7 +66,7 @@ h4
 }
 h2
 {
-    color: rgb(3, 94, 94);
+    /* color: rgb(3, 94, 94); */
 }
 
 /* ----------------------------- MEDIA QUERY --------------------------- */
