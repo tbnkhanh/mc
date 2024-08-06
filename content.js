@@ -18,11 +18,12 @@ function dynamicClothingSection(ob) {
   h3.appendChild(h3Text);
 
   let h4 = document.createElement("h4");
-  let h4Text = document.createTextNode(ob.brand);
+  let h4Text = document.createTextNode(ob.description);
   h4.appendChild(h4Text);
 
-  let h2 = document.createElement("h2");
-  let h2Text = document.createTextNode("rs  " + ob.price);
+  let h2 = document.createElement("h3");
+  let h2Text = document.createTextNode('Giá: ' + ob.price + ' VNĐ');
+  h2.style.color ='rgb(3, 94, 94)';
   h2.appendChild(h2Text);
 
   boxDiv.appendChild(boxLink);
@@ -41,21 +42,10 @@ let containerAccessories = document.getElementById("containerAccessories");
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
-    contentTitle = data;
-    if (document.cookie.indexOf(",counter=") >= 0) {
-      var counter = document.cookie.split(",")[1].split("=")[1];
-      document.getElementById("badge").innerHTML = counter;
-    }
-    for (let i = 0; i < contentTitle.length; i++) {
-      if (contentTitle[i].isAccessory) {
-        containerAccessories.appendChild(
-          dynamicClothingSection(contentTitle[i])
-        );
-      } else {
+    for (let i = 0; i < data.length; i++) {
         containerClothing.appendChild(
-          dynamicClothingSection(contentTitle[i])
+          dynamicClothingSection(data[i])
         );
-      }
     }
   })
   .catch(error => {

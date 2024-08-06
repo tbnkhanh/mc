@@ -64,9 +64,9 @@ h4
 {
     font-weight: 100;
 }
-h2
+h3
 {
-    /* color: rgb(3, 94, 94); */
+    color: rgb(3, 94, 94);
 }
 
 /* ----------------------------- MEDIA QUERY --------------------------- */
@@ -96,6 +96,9 @@ h2
         grid-template-columns: repeat(3, 1fr);
         width: 80%;
     }    
+    #containerClothing img {
+        height: 10rem;
+    }
 }
 @media(max-width: 650px)
 {

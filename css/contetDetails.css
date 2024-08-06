@@ -46,7 +46,7 @@ h1
     letter-spacing: 1px;
     word-spacing: 2px;
 }
-h4
+h3
 {
     font-size: 15px;
     font-weight: bold;
@@ -60,7 +60,7 @@ h4
 }
 #productPreview > img
 {
-    width: 50px;
+    width: 200px;
     padding: 10px 10px;
     border-radius: 15px;
     cursor: pointer;
@@ -128,7 +128,7 @@ button a:focus
     }
     #productPreview > img
     {
-        width: 40px;
+        width: 8rem;
         padding: 10px 10px;
         padding-bottom: 30px;
     }
@@ -166,7 +166,7 @@ button a:focus
     #imageSection img
     {
         text-align: center;
-        width: 70%;
+        width: 100%;
         float: none;
     }
     #productDetails
