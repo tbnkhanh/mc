@@ -1,49 +1,42 @@
 [
   {
     "id": 1,
-    "name": "Hộp Hàng Bài",
+    "name": "Hộp Thăng Long",
     "brand": "Brand A",
-    "price": "500.000",
-    "description": "Hộp 2 bánh x 150G Hộp 2 bánh x 150G",
-    "preview": "img/cake.jpg", 
+    "price": "990.000",
+    "description": "Hộp 08 bánh x 80g bao gồm: Sen xát trứng muối, Trà xanh trứng muối, Sữa dừa trứng muối, đậu xanh trứng muối, cốm xanh trứng muối, hạt dẻ trứng muối",
+    "preview": "https://i.postimg.cc/7ZJYP8XY/z5706742485197-f6501e8d8dfe2b4d8f620429f9ee094a.jpg ", 
     "photos": [
-      "img/cake.jpg",
-      "img/cake.jpg"
     ]
   },
   {
     "id": 2,
-    "name": "Product 2",
+    "name": "Hộp Lý Thái Tổ",
     "brand": "Brand B",
-    "price": "600.00",
-    "description": "Hộp 2 bánh x 150G Hộp 2 bánh x 150G",
-    "preview": "img/cake2.jpg",
+    "price": "750.00",
+    "description": "Hộp 6 bánh x 120G bao gồm: Sen xát trứng muối, Trà xanh trứng muối, Sữa dừa trứng muối, đậu xanh trứng muối, cốm xanh trứng muối, hạt dẻ trứng muối",
+    "preview": "https://i.postimg.cc/W4MNrGQB/z5706742313336-123951b60bb05520971fac75805d64dd.jpg",
     "photos": [
-      "img/cake.jpg",
-      "img/cake2.jpg"
     ]
-  }, {
+  }, 
+  {
     "id": 3,
-    "name": "Hộp Hàng Bài",
-    "brand": "Brand A",
-    "price": "500.000",
-    "description": "Hộp 2 bánh x 150G Hộp 2 bánh x 150G",
-    "preview": "img/cake.jpg", 
+    "name": "Hộp Hàng Đào",
+    "brand": "Brand B",
+    "price": "499.00",
+    "description": "Hộp 6 bánh x 80G bao gồm: Sen xát trứng muối, Trà xanh trứng muối, Sữa dừa trứng muối, đậu xanh trứng muối, cốm xanh trứng muối, hạt dẻ trứng muối",
+    "preview": "https://i.postimg.cc/j5tshWTL/z5706742421194-52427cad7647f00be90f1602772a2e00.jpg",
     "photos": [
-      "img/cake.jpg",
-      "img/cake.jpg"
     ]
   },
   {
     "id": 4,
-    "name": "Product 2",
-    "brand": "Brand B",
-    "price": "600.00",
-    "description": "Hộp 2 bánh x 150G Hộp 2 bánh x 150G",
-    "preview": "img/cake2.jpg",
+    "name": "Hộp Hàng Bài",
+    "brand": "Brand A",
+    "price": "239.000",
+    "description": "Hộp 2 bánh x 150G Hộp",
+    "preview": "https://i.postimg.cc/0Ng5bWHG/z5706742361886-82b3fd01ce0750354c3216b51c66e2cc.jpg", 
     "photos": [
-      "img/cake.jpg",
-      "img/cake2.jpg"
     ]
   }
 ]
