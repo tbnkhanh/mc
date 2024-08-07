@@ -17,7 +17,7 @@ function dynamicClothingSection(ob) {
   let h3Text = document.createTextNode(ob.name);
   h3.appendChild(h3Text);
 
-  let h4 = document.createElement("h4");
+  let h4 = document.createElement("p");
   let h4Text = document.createTextNode(ob.description);
   h4.appendChild(h4Text);
 
